@@ -1,0 +1,17 @@
+GIT
+  remote: git://github.com/rubymotion/BubbleWrap.git
+  revision: 82db68ddac22dff379f1127a8d9b33f51832d09d
+  specs:
+    bubble-wrap (1.1.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (0.9.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bubble-wrap!
+  rake
