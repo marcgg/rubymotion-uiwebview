@@ -5,8 +5,11 @@ class MainController < UIViewController
     self
   end
 
-  def viewDidLoad
+  def loadView
     self.view = UIWebView.alloc.init
+  end
+
+  def viewDidLoad
     self.view.delegate = self
     self.view.scrollView.scrollEnabled = false
     self.view.scrollView.bounces = false
